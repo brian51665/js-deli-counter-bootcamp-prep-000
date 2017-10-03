@@ -1,6 +1,6 @@
 
-function takeANumber(Array, name) {
-  var emptyArray = [];
-  emptyArray.push(`${name});
+function takeANumber(array, name) {
+  var linePosition = array.length + 1;
+  linePosition.push(name);
     return "Welcome, " + `${name}` + ". You are number " + (emptyArray.length) + " in line.";
   }
