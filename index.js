@@ -5,6 +5,7 @@ function takeANumber(array, name) {
     return "Welcome, " + name + ". You are number " + linePosition + " in line.";
   }
 
-function nowServing(){
-  
+function nowServing(array){
+  if array.length === 0
+  return "There is nobody waiting to be served."
 }
