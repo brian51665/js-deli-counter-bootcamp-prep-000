@@ -7,8 +7,8 @@ function takeANumber(array, name) {
 
 function nowServing(array){
   if (array.length === 0)
-  return "There is nobody waiting to be served."
+  return "There is nobody waiting to be served!"
   else
   return array[0]
-  array.pop([0])
+  array.shift([0])
 }
