@@ -11,4 +11,5 @@ function nowServing(array){
   else
   return "Currently serving " + array[0] + "."
   array.shift()
+  return array
 }
