@@ -21,6 +21,5 @@ function currentLine(array) {
       var i = 0;
       for (i = 0; i < array.length; i++);
       return "The line is currently : " + (i)  + ". " + array[i];
-      i++;
  }
 }
