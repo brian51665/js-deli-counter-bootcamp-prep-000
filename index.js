@@ -21,7 +21,7 @@ function currentLine(array) {
    return "The line is currently empty."
  } else {
    for (i = 0; i < array.length; i++)
-   array2[i] = (i + 1) + ". " + array[i]
+   array2[i] = " " (i + 1) + ". " + array[i]
     return "The line is currently:" + " " + array2;
  }
 }
