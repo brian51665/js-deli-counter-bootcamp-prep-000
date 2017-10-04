@@ -22,6 +22,6 @@ function currentLine(array) {
  } else {
    for (i = 0; i < array.length; i++)
    array2[i] = (i + 1) + ". " + array[i]
-    return "The line is currently : " + array2;
+    return "The line is currently :" + array2;
  }
 }
