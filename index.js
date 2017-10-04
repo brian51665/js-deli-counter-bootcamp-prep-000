@@ -22,7 +22,6 @@ function currentLine(array) {
  } else {
    for (i = 0; i < array.length; i++)
    var array2[i] = (i + 1) + ". " + array[i]
-   array =
-    return "The line is currently : "
+    return "The line is currently : " + array2;
  }
 }
